@@ -6,7 +6,7 @@ export default function TableBody(props){
         <tr key={index}>
           <td>{value.bookname}</td>
           <td>{value.authors}</td>
-          <td><button onClick={() => props.removeBook(index)}>Remove</button></td>
+          <td><button className="btn btn-danger rounded" onClick={() => props.removeBook(index)}>Remove</button></td>
         </tr>
     );
   });

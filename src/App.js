@@ -11,6 +11,10 @@ class App extends Component {
   removeBook = (index) => {
     const {books} = this.state;
 
+    if(!window.confirm("Are you sure?")){
+      return;
+    }
+
     this.setState({
       books: books.filter((book, i) => {
         return i !== index;
@@ -28,11 +32,18 @@ class App extends Component {
         <h1>Book List</h1>
         <p>Add a book with it's name and author(s) to the table.</p>
 
-        <h3>Add New Book</h3>
-        <Form handleSubmit={this.handleSubmit} />
+        <div className="card shadow">
+          <div className="card-body">
+            <h3>Add New Book</h3>
+            <Form handleSubmit={this.handleSubmit} />
+          </div>
+        </div>
 
-        <Table bookList={this.state.books} removeBook={this.removeBook} />
-
+        <div className="card shadow mt-3">
+          <div className="card-body">
+            <Table bookList={this.state.books} removeBook={this.removeBook} />
+          </div>
+        </div>
       </div>
     );
   }

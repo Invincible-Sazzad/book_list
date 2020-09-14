@@ -36,7 +36,7 @@ export default class Form extends Component{
 
         <label htmlFor="authors">Author(s)</label>
         <input type="text" name="authors" value={authors} onChange={this.handleChange} />
-        <div className="text-center"><button type="submit">Save</button></div>
+        <div className="text-center"><button className="btn btn-primary rounded" type="submit">Save</button></div>
 
       </form>
     );

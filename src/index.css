@@ -31,7 +31,7 @@ body {
   @media (min-width: 600px) {
     .content-section {
       padding: 60px 0; } }
-      
+
 
 p,
 table {
@@ -209,7 +209,7 @@ caption {
       color: #9a9a9a; }
       /* Buttons
         =============== */
-      .button, a.button, button, [type=submit], [type=reset], [type=button] {
+      /* .button, a.button, button, [type=submit], [type=reset], [type=button] {
         -webkit-appearance: none;
         display: inline-block;
         border: 1px solid #0366EE;
@@ -281,4 +281,4 @@ caption {
       .full-button,
       a.full-button {
         display: block;
-        width: 100%; }
+        width: 100%; } */
