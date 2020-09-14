@@ -1,4 +1,4 @@
-export default function tableHeader = () => {
+export default function TableHeader = () => {
     return (
         <thead>
             <tr>
