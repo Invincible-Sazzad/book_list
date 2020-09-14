@@ -1,6 +1,6 @@
 import React from 'react';
-import TableHeader from './component/TableHeader.js';
-import TableBody from './component/TableBody.js';
+import TableHeader from './TableHeader.js';
+import TableBody from './TableBody.js';
 
 
 const Table = (props) => {

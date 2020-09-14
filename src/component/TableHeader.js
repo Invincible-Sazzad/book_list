@@ -1,4 +1,6 @@
-export default function TableHeader = () => {
+import React from 'react';
+
+export default function TableHeader(){
     return (
         <thead>
             <tr>
