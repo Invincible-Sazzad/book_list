@@ -1,8 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Book List
 
-This is a simple react app where you can add a book with author(s), view on the table and remove a book.
+A simple react app where you can add a book with author(s), view on the table and remove a book.
+The app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Install
 
