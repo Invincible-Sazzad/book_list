@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-// import './App.css';
 import Table from './component/Table.js';
 import Form from './component/Form.js';
 
