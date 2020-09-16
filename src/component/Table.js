@@ -7,10 +7,12 @@ const Table = (props) => {
   const {bookList, removeBook} = props;
 
   return(
-    <table className="table-striped table-bordered">
-      <TableHeader />
-      <TableBody bookList={bookList} removeBook={removeBook} />
-    </table>
+      <div className="table-responsive">
+          <table className="table-striped table-bordered">
+            <TableHeader />
+            <TableBody bookList={bookList} removeBook={removeBook} />
+          </table>
+      </div>
   );
 }
 
