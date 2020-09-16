@@ -29,8 +29,8 @@ class App extends Component {
   render(){
     return (
       <div className="container">
-        <h1>Book List</h1>
-        <p>Add a book with it's name and author(s) to the table.</p>
+        <h1 className="AppTitle">Book List</h1>
+        <p className="instruction pb-1">Add a book with it's name and author(s) to the table.</p>
 
         <div className="card shadow">
           <div className="card-body">

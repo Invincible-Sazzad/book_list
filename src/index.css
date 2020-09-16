@@ -91,6 +91,19 @@ h5 {
     font-size: 1.25rem; } }
 
 
+.AppTitle{
+    text-align: center;
+    font-style: italic;
+    font-family: ui-monospace;
+}
+
+.instruction{
+    text-align: center;
+    font-size: larger;
+    font-family: ui-monospace;
+    border-bottom: 1px solid #ccc;
+}
+
 /* Tables
   =============== */
 table {
